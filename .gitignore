@@ -1,0 +1,4 @@
+.idea/
+db.sqlite3
+/API/migrations/
+/frontend/node_modules/
