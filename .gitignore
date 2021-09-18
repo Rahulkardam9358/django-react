@@ -1,4 +1,6 @@
 .idea/
 db.sqlite3
 /API/migrations/
+/API/__pycache__/
+/myApp/__pycache__/
 /frontend/node_modules/

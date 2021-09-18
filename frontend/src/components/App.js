@@ -1,11 +1,12 @@
-import React, { Component} from 'react';
+import React from 'react'
 
-
-export default class App extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return <h1>Testing react django </h1>
-    }
+const App = () => {
+    return (
+        <div>
+            {process.env.REACT_APP_PORT}<br/>
+            {process.env.REACT_APP_API_URL}
+        </div>
+    )
 }
+
+export default App
